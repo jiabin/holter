@@ -21,7 +21,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "doctrine/mongodb-odm": "1.0.*@dev",
         "doctrine/mongodb-odm-bundle": "3.0.*@dev",
-        "jiabin/holter-bundle": "dev-master"
+        "jiabin/holter-bundle": "1.0.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -42,6 +42,8 @@
     "config": {
         "bin-dir": "bin"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
