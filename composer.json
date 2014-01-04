@@ -40,7 +40,8 @@
         ]
     },
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "component-dir": "web/components"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

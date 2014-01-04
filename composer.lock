@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e8405ed3dd61ff1a1e14e2073e7b1a55",
+    "hash": "6b9f91daeb5a3faf05393d3c4db27452",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -937,12 +937,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jiabin/HolterBundle.git",
-                "reference": "487605921fedecf7c4b165a3ceb2830fb2fa3023"
+                "reference": "403aaac14ec2035bfaffc6697008d1ea25a11ab6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/487605921fedecf7c4b165a3ceb2830fb2fa3023",
-                "reference": "487605921fedecf7c4b165a3ceb2830fb2fa3023",
+                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/403aaac14ec2035bfaffc6697008d1ea25a11ab6",
+                "reference": "403aaac14ec2035bfaffc6697008d1ea25a11ab6",
                 "shasum": ""
             },
             "require": {
@@ -980,7 +980,7 @@
                 "monitor",
                 "status"
             ],
-            "time": "2014-01-04 19:46:11"
+            "time": "2014-01-04 20:00:47"
         },
         {
             "name": "kriswallsmith/assetic",
