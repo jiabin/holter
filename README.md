@@ -1,3 +1,3 @@
-![Holter Logo](/doc/logo.png) Holter
+![Holter Logo](doc/logo.png) Holter
 ==============================================
 
