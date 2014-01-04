@@ -1,0 +1,4 @@
+# Holter
+holter:
+    resource: "@JiabinHolterBundle/Resources/config/routing/routing.yml"
+    prefix:   /

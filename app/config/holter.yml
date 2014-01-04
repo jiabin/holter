@@ -1,0 +1,11 @@
+# Holter Configuration
+jiabin_holter:
+    db_driver: mongodb
+    checks:
+        http:
+            class: Jiabin\HolterBundle\Check\HttpCheck
+            label: Jiabin.net
+            options:
+                host: jiabin.net
+                port: 80
+                statusCode: 200
