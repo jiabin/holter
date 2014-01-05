@@ -2,3 +2,16 @@
 holter:
     resource: "@JiabinHolterBundle/Resources/config/routing/routing.yml"
     prefix:   /
+
+# Login
+_security_login:
+    pattern: /login
+    defaults: { _controller: JiabinHolterBundle:Security:login }
+
+_security_check:
+    pattern: /login_check
+    defaults: { _controller: JiabinHolterBundle:Security:check }
+
+_security_logout:
+    pattern: /logout
+    defaults: { _controller: JiabinHolterBundle:Security:logout }
