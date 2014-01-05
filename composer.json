@@ -52,6 +52,13 @@
         },
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "heroku": {
+            "framework": "symfony2",
+            "php-config": [
+                "display_errors=off",
+                "date.timezone=UTC"
+            ]
         }
     }
 }
