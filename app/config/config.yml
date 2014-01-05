@@ -7,7 +7,6 @@ services:
 imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
-    - { resource: holter.yml }
 
 framework:
     #esi:             ~
@@ -87,3 +86,7 @@ doctrine_mongodb:
     document_managers:
         default:
             auto_mapping: true
+
+# Holter Configuration
+jiabin_holter:
+    db_driver: mongodb
