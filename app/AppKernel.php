@@ -17,7 +17,8 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Jiabin\HolterBundle\JiabinHolterBundle(),
-            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle()
+            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
+            new Craue\FormFlowBundle\CraueFormFlowBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
