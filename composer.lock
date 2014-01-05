@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0732480fca816247609f0b78246b69e3",
+    "hash": "8666c4e71173cfda4ea144105d35f560",
     "packages": [
         {
             "name": "components/bootstrap",
@@ -247,6 +247,60 @@
             "description": "Normalize.css is a customisable CSS file that makes browsers render all elements more consistently and in line with modern standards.",
             "homepage": "http://necolas.github.com/normalize.css/",
             "time": "2013-10-24 03:37:49"
+        },
+        {
+            "name": "craue/formflow-bundle",
+            "version": "2.1.4",
+            "target-dir": "Craue/FormFlowBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/craue/CraueFormFlowBundle.git",
+                "reference": "8ed63a05be06c2bdd820ccab15b08fa835ea9235"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/craue/CraueFormFlowBundle/zipball/8ed63a05be06c2bdd820ccab15b08fa835ea9235",
+                "reference": "8ed63a05be06c2bdd820ccab15b08fa835ea9235",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/form": "~2.1",
+                "symfony/framework-bundle": "~2.1"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.3",
+                "phpunit/phpunit": "~3.7.10",
+                "sensio/framework-extra-bundle": ">=2.1",
+                "symfony/symfony": "~2.1"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Craue\\FormFlowBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Raue",
+                    "email": "christian.raue@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://github.com/craue/CraueFormFlowBundle/contributors"
+                }
+            ],
+            "description": "Multi-step forms for your Symfony2 project.",
+            "homepage": "https://github.com/craue/CraueFormFlowBundle",
+            "keywords": [
+                "Symfony2",
+                "form"
+            ],
+            "time": "2013-12-05 16:13:22"
         },
         {
             "name": "doctrine/annotations",
@@ -1180,17 +1234,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jiabin/HolterBundle.git",
-                "reference": "be300f506a066eb8cacd8dbde16032010e62854c"
+                "reference": "3e9ceb0b78f1eaeda902033900388821934de976"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/be300f506a066eb8cacd8dbde16032010e62854c",
-                "reference": "be300f506a066eb8cacd8dbde16032010e62854c",
+                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/3e9ceb0b78f1eaeda902033900388821934de976",
+                "reference": "3e9ceb0b78f1eaeda902033900388821934de976",
                 "shasum": ""
             },
             "require": {
                 "components/bootstrap": "*",
                 "components/html5-boilerplate": "*",
+                "craue/formflow-bundle": "~2.0",
                 "doctrine/common": ">=2.1.3",
                 "symfony/symfony": ">=2.1,<2.6-dev",
                 "twig/extensions": "*"
@@ -1226,7 +1281,7 @@
                 "monitor",
                 "status"
             ],
-            "time": "2014-01-05 14:15:25"
+            "time": "2014-01-05 22:22:01"
         },
         {
             "name": "kriswallsmith/assetic",
