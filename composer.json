@@ -19,7 +19,7 @@
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
-        "jiabin/holter-bundle": "dev-master"
+        "jiabin/holter-bundle": "0.1.*@dev"
     },
     "scripts": {
         "post-install-cmd": [
