@@ -1,4 +1,4 @@
-![Holter Logo](doc/logo.png) Holter
+![Pulse designed by Nico Tzogalis from the Noun Project](doc/logo.png) Holter
 ==============================================
 
 Service status app.
