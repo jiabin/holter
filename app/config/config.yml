@@ -75,3 +75,12 @@ doctrine_mongodb:
 # Holter Configuration
 jiabin_holter:
     db_driver: mongodb
+
+# Mopa Bootstrap Configuration
+mopa_bootstrap:
+    form:
+        templating:      JiabinHolterBundle:Form:fields.html.twig
+        # show_legend:     false
+        horizontal:      false
+        render_fieldset: false
+    # menu: ~  # enables twig helpers for menu
