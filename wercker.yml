@@ -1,4 +1,8 @@
-box: wercker/php
+box: eymengunay/php55@0.0.16
+services:
+    - wercker/mongodb@0.0.6
+    - wunki/elasticsearch@0.0.1
+    - wercker/redis@0.0.8
 build:
     steps:
         - wercker/add-to-known_hosts@1.2.0:
