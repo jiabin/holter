@@ -19,7 +19,12 @@
         "sensio/framework-extra-bundle": "~3.0",
         "sensio/generator-bundle": "~2.3",
         "incenteev/composer-parameter-handler": "~2.0",
-        "jiabin/holter-bundle": "0.1.*@dev"
+
+        "doctrine/mongodb-odm": "1.0.*@dev",
+        "doctrine/mongodb-odm-bundle": "3.0.*@dev",
+        "jiabin/holter-bundle": "1.0.*@dev",
+
+        "friendsofsymfony/user-bundle": "~2.0@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -41,6 +46,7 @@
         "bin-dir": "bin",
         "component-dir": "web/components"
     },
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
         "symfony-app-dir": "app",
