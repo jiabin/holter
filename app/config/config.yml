@@ -70,6 +70,12 @@ doctrine_mongodb:
         default:
             auto_mapping: true
 
+# FOS User Configuration
+fos_user:
+    db_driver: mongodb # other valid values are 'mongodb', 'couchdb' and 'propel'
+    firewall_name: main
+    user_class: %holter.user.doctrine.class%
+
 # Holter Configuration
 jiabin_holter:
     db_driver: mongodb

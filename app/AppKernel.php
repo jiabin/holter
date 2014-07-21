@@ -19,7 +19,8 @@ class AppKernel extends Kernel
             new Jiabin\HolterBundle\JiabinHolterBundle(),
             new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
             new Craue\FormFlowBundle\CraueFormFlowBundle(),
-            new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle()
+            new Mopa\Bundle\BootstrapBundle\MopaBootstrapBundle(),
+            new FOS\UserBundle\FOSUserBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
