@@ -1412,12 +1412,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jiabin/HolterBundle.git",
-                "reference": "14a69b2f41ce701d549122c62be321a2b058fcff"
+                "reference": "fa4211d1a3ba441bfa31601656951432726f997d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/14a69b2f41ce701d549122c62be321a2b058fcff",
-                "reference": "14a69b2f41ce701d549122c62be321a2b058fcff",
+                "url": "https://api.github.com/repos/jiabin/HolterBundle/zipball/fa4211d1a3ba441bfa31601656951432726f997d",
+                "reference": "fa4211d1a3ba441bfa31601656951432726f997d",
                 "shasum": ""
             },
             "require": {
@@ -1463,7 +1463,7 @@
                 "monitor",
                 "status"
             ],
-            "time": "2014-07-21 20:11:55"
+            "time": "2014-07-21 23:44:46"
         },
         {
             "name": "kriswallsmith/assetic",
